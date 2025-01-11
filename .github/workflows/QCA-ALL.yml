@@ -42,7 +42,8 @@ jobs:
         BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
-    uses: ./.github/workflows/WRT-CORE.yml
+    #uses: ./.github/workflows/WRT-CORE.yml
+    uses: ./.github/workflows/CORE.yml
     with:
       #编译平台
       WRT_TARGET: ${{matrix.TARGET}}
