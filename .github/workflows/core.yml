@@ -163,8 +163,8 @@ jobs:
 
 
 
-           ./scripts/feeds update -a
-          ./scripts/feeds install -a
+             ./scripts/feeds update -a
+            ./scripts/feeds install -a
       - name: Custom Packages(自定义替换软件包)
         run: |
           cd ./wrt/package/
