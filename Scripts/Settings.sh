@@ -69,7 +69,9 @@ echo "CONFIG_PACKAGE_luci-theme-kucat=n" >> ./.config
 #剔除Trojan_Plus
 echo "CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=n" >> ./.config
 echo "CONFIG_PACKAGE_trojan-plus=n" >> ./.config
-
+#假设你想要删除.config文件中包含CONFIG_PACKAGE_luci-app-turboacc=y的那一行，你可以使用以下sed命令：
+#sed -i '/CONFIG_PACKAGE_luci-app-turboacc=y/d' ./.config
+#d：是一个命令，表示删除匹配的行。
 
 # 可以让FinalShell查看文件列表并且ssh连上不会自动断开
 echo "CONFIG_PACKAGE_openssh-sftp-server=y" >> ./.config
