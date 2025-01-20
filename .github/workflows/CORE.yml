@@ -264,9 +264,17 @@ jobs:
           tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
-            不要问，刷就完事了！
+            京东云亚瑟（512M，128G）专用！
+            插件PD,KMS,aria2,alist,ftp,Samba,ramfree！
+            升级用sysupgrade，uboot用factory！
+            
+            uboot进入方法：
+            1.路由器断电lan口接电脑。
+            2.网卡设置：
+            IP:192.168.1.x，子网掩码:255.255.255.0，网关192.168.1.1
+            3.按住reset通电，等待蓝灯常亮。
+            
+            懂的都懂，刷就完事了！
 
             全系带开源硬件加速，别问了！
 
