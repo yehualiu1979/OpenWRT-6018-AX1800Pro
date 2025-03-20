@@ -10,8 +10,8 @@ on:
       - completed
   #自动编译：每天早上6点（这里有时差，国内6点，服务器所在地22点）
   #0 22 * * 6（在每周六的22点0分执行任务。）
-  #schedule:
-  #  - cron: 0 22 * * 6
+  schedule:
+    - cron: 0 22 * * *
   #手动编译
   workflow_dispatch:
     inputs:
