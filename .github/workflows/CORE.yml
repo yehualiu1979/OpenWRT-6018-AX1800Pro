@@ -285,7 +285,9 @@ jobs:
 
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
-            平台：${{env.WRT_TARGET}}
-            设备：${{env.WRT_TYPE}}
+            #平台：${{env.WRT_TARGET}}
+            #设备：${{env.WRT_TYPE}}
+            平台：IPQ6018
+            设备：JDCLOUD ax1800pro
             地址：${{env.WRT_IP}}
             密码：${{env.WRT_PW}}
